@@ -5,26 +5,26 @@
 using static System.Console;
 class DebugFive3
 {
-   static void Main()
-           {
-            char letter;
-            int number;
-            int LOW = 0;
-            int HIGH = 99;
-            int NUMINROW = 20;
-            for (letter = 'A'; letter <= 'Z'; ++letter)
-            {
-                for (number = LOW; number <= HIGH; ++number)
-                {
-                    if (number <= NUMINROW)
-                    {
-                        Write("{0}{1} ", letter.ToString(), number.ToString("D2"));
-                    }
-                  LOW = LOW + 20;
-                  NUMINROW = NUMINROW + 20;
-                }
-                LOW = 0;
-                NUMINROW = 20;
-            }
-        }
+	static void Main()
+	{
+		char letter;
+		int number;
+		int LOW = 0;
+		int HIGH = 99;
+		int NUMINROW = 20;
+		for (letter = 'A'; letter <= 'Z'; ++letter)
+		{
+			for (number = LOW; number <= HIGH; ++number)
+			{
+				if (number <= NUMINROW)
+				{
+					Write("{0}{1} ", letter.ToString(), number.ToString("D2"));
+				}
+				LOW = LOW + 20;
+				NUMINROW = NUMINROW + 20;
+			}
+			LOW = 0;
+			NUMINROW = 20;
+		}
+    }
 }
