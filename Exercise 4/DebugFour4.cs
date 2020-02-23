@@ -9,31 +9,31 @@ using System;
 using static System.Console;
 class DebugFour4
 {
-   static void Main()
-   {
-            double sales, commission;
-            string inputString;
-            const int LOWSALES = 1000;
-            const int MEDSALES = 5000;
-            const int HIGHSALES = 10000;
-            const double LOWPCT = 0.05;
-            const double MEDPCT = 0.07;
-            const int BONUS1 = 1000;
-            const int BONUS2 = 1500;
-            WriteLine("What was the sales amount? ");
-            inputString = ReadLine();
-            sales = Convert.ToDouble(inputString);
-            commission = LOWPCT * sales;
-            if (sales > LOWSALES)
-            {
-              commission = LOWPCT * LOWSALES;
-              commission += (sales - LOWSALES) * MEDPCT;
-            }
-              if (sales > MEDSALES)
-                commission += BONUS1;
-                 if (sales > HIGHSALES)
-                  commission += BONUS2;
-            WriteLine("Sales: {0}\nCommission: {1}",
-              sales.ToString("C"), commission.ToString("C"));
-  }
+	static void Main()
+	{
+		double sales, commission;
+		string inputString;
+		const int LOWSALES = 1000;
+		const int MEDSALES = 5000;
+		const int HIGHSALES = 10000;
+		const double LOWPCT = 0.05;
+		const double MEDPCT = 0.07;
+		const int BONUS1 = 1000;
+		const int BONUS2 = 1500;
+		WriteLine("What was the sales amount? ");
+		inputString = ReadLine();
+		sales = Convert.ToDouble(inputString);
+		commission = LOWPCT * sales;
+		if (sales > LOWSALES)
+		{
+			commission = LOWPCT * LOWSALES;
+			commission += (sales - LOWSALES) * MEDPCT;
+		}
+		if (sales > MEDSALES)
+			commission += BONUS1;
+		if (sales > HIGHSALES)
+			commission += BONUS2;
+		WriteLine("Sales: {0}\nCommission: {1}",
+		sales.ToString("C"), commission.ToString("C"));
+	}
 }
