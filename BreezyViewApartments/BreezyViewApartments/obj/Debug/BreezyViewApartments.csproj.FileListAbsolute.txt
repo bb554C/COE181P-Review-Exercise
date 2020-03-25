@@ -1,0 +1,10 @@
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\bin\Debug\BreezyViewApartments.exe.config
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\bin\Debug\BreezyViewApartments.exe
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\bin\Debug\BreezyViewApartments.pdb
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\obj\Debug\BreezyViewApartments.Properties.Resources.resources
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\obj\Debug\BreezyViewApartments.csproj.GenerateResource.cache
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\obj\Debug\BreezyViewApartments.csproj.CoreCompileInputs.cache
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\obj\Debug\BreezyViewApartments.exe
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\obj\Debug\BreezyViewApartments.pdb
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\obj\Debug\BreezyViewApartments.MainWindow.resources
+C:\Users\BAIRD\Documents\GitHub\COE181P-Seatworks\BreezyViewApartments\BreezyViewApartments\obj\Debug\BreezyViewApartments.csprojAssemblyReference.cache
